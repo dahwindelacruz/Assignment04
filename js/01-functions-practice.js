@@ -34,6 +34,20 @@
 // percentOf(5, 10)
 // percentOf(100, 4000)
 
+
 //STEP 4
+// Write a function called findModulus() that accepts two numbers. Within the function write a statement that returns the modulus of the first and second parameters. It should log a string like "2 is the modulus of 4 and 10."
+
+// function findModulus(firstNumber, secondNumber) {
+//     let modulus = secondNumber % firstNumber
+//     console.log(`${modulus} is the modulus of ${firstNumber} and ${secondNumber}`)
+// }
+
+// findModulus()
+// findModulus(4, 10)
+// findModulus(8, 20)
+
 
 //STEP 5
+// Create a JavaScript function that accepts a certain amount of numbers as parameters. Those numbers should be collected using a prompt and the numbers should be delimited by commas. Once the values are collected, find the sum of all of the numbers combined. You will need to use a function, loop, arguments object, and several type conversion global functions to accomplish this task.
+
