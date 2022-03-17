@@ -51,3 +51,16 @@
 //STEP 5
 // Create a JavaScript function that accepts a certain amount of numbers as parameters. Those numbers should be collected using a prompt and the numbers should be delimited by commas. Once the values are collected, find the sum of all of the numbers combined. You will need to use a function, loop, arguments object, and several type conversion global functions to accomplish this task.
 
+function sumOfAll(numbers) {
+    
+}
+
+function sumOfAll(numbers) {
+    prompt('Please enter numbers to be added')
+    let base = 0;
+    for (let i = 1; i < arguments.length; i++) {
+        base += Number(arguments[i]);
+    }
+    console.log(base);
+}
+sumOfAll();
